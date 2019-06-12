@@ -1,17 +1,18 @@
 # [Semana Omnistack 7](https://rocketseat.com.br/week-7/aulas)
-Semana OmniStack 7.0 - Rocketseat
+Semana OmniStack 7.0 - Rocketseat :rocket:
+
 Possívelmente o link *não estará* funcionando após domingo 16/06.
 
 ## Aula01 - Ambiente de desenvolvimento 10/06/2019
 Nessa aula você vai deixar seu ambiente de desenvolvimento otimizado para a OmniStack
 
-###Node JS
+### Node JS
 https://nodejs.org/en/
 
-#### Gerenciador de pacotes
+### Gerenciador de pacotes
 https://yarnpkg.com/pt-BR/
 
-###Ambiente de Desenvolvimento
+### Ambiente de Desenvolvimento
 
 Customizando o VS Code
 Tema Dracula Official

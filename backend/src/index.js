@@ -2,11 +2,11 @@ const express = require('express');
 
 const app = express();
 
-//Rota
+//Rota Express
 app.get('/', (req, res) => {
 
     //Retornando uma resposta
-    return res.send(`Helo World ${req.query.name}.`);
+    return res.send(`Olá Mundo ${req.query.name}.`);
 });
 
 app.listen(3333);

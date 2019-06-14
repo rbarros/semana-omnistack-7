@@ -9,6 +9,7 @@ const upload = multer(uploadConfig);
 //Ao acessar a rota /posts através do método post
 //executa o método store do controller
 routes.post('/posts', upload.single('image'), PostController.store);
+routes.get('/posts', PostController.index);
 
 
 module.exports = routes;

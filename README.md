@@ -84,11 +84,17 @@ REST Client para debug
 Cria uma pasta para os recursos.
 Novo request
 
-create  POST    Multipart
+Create  POST    Multipart
 
 Teste com imagem
 
 Adiciona nova rota.
+http://localhost:3333/posts
+
+Após feito o sistema de post, 
+é hora de fazer de listagem de dados.
+
+List GET
 http://localhost:3333/posts
 
 ### Multer

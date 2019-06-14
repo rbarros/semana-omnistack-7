@@ -1,9 +1,10 @@
 const express = require('express');
 const multer = require('multer');
-const PostController = require('./controlllers/PostController')
+const uploadConfig = require('./config/upload');
+const PostController = require('./controlllers/PostController');
 
 const routes = new express.Router();
-const upload = multer();
+const upload = multer(uploadConfig);
 
 //Ao acessar a rota /posts através do método post
 //executa o método store do controller

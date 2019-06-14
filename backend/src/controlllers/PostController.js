@@ -15,7 +15,5 @@ module.exports = {
         console.log(req.body);
         console.log(req.file);
         return res.json({ ok: true });
-
     }
-
 };

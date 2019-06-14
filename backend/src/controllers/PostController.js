@@ -5,7 +5,7 @@ const Post = require('../models/Post');
 
 module.exports = {
     
-    //Rota de listagem
+    //Controller de listagem
     async index(req, res){
         // O sinal de menos antes do createdAt
         //significa que é ordem decrescente
@@ -13,7 +13,7 @@ module.exports = {
         return res.json(posts);
     },
 
-    //Rota de armazenar
+    //Controller de armazenar
     async store(req, res){
         const { author, place, description, hashtags } = req.body;
         const { filename: image } = req.file;

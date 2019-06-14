@@ -97,6 +97,10 @@ Após feito o sistema de post,
 List GET
 http://localhost:3333/posts
 
+Para testar o Like
+http://localhost:3333/posts/'idpost'/like
+http://localhost:3333/posts/5d03aaf3b8454428b8748f6f/like
+
 ### Multer
 yarn add multer
 

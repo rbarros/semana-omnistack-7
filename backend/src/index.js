@@ -7,11 +7,6 @@ mongoose.connect('mongodb+srv://instarocket:OG9PwoHvDrI7OGlf@cluster0-v8wd5.mong
     useNewUrlParser: true,
 });
 
-//Rota Express
-app.get('/', (req, res) => {
-
-    //Retornando uma resposta
-    return res.send(`Olá Mundo ${req.query.name}.`);
-});
+app.use(require('./routes'));
 
 app.listen(3333);

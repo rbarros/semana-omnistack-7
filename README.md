@@ -1,3 +1,5 @@
+# Instarocket
+
 # [Semana Omnistack 7](https://rocketseat.com.br/week-7/aulas)
 Semana OmniStack 7.0 - Rocketseat :rocket:
 
@@ -43,4 +45,57 @@ Open settings (JSON)
 ## Aula02 - Criando a base da aplicação 11/06/2019
 Nessa aula você vai construir o back-end da sua aplicação: uma API utilizando NodeJS
 
+Github de mais um que está acompanhando
 [fawkes](https://github.com/fawkesguii/insta-omnistack)
+
+Criação da pasta backend
+```
+mkdir backend
+cd backend
+yarn init -y
+yarn add express
+```
+
+Para iniciar a aplicação
+na pasta backend, rodar:
+```node sr/index.js```
+
+### Nodemon
+Adicionar o nodemon
+```yarn add nodemon -D```
+E então para executar, vai ficar monitorando mudanças no inde.js
+```yarn dev```
+
+### Mongodb
+#### [MongoDB Atlas](https://cloud.mongodb.com)
+
+
+Cria um cluster e conecta!
+instarocket OG9PwoHvDrI7OGlf
+
+Conect your application
+mongodb+srv://instarocket:<password>@cluster0-v8wd5.mongodb.net/test?retryWrites=true&w=majority
+
+yarn add mongose
+
+### [Imsonia](https://insomnia.rest/)
+REST Client para debug
+
+Cria uma pasta para os recursos.
+Novo request
+
+create  POST    Multipart
+
+Teste com imagem
+
+Adiciona nova rota.
+http://localhost:3333/posts
+
+### Multer
+yarn add multer
+
+dependência que lida com o post de multipart/form-data 
+e automatiza o upload de arquivos
+
+
+

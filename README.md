@@ -95,7 +95,9 @@ http://localhost:3333/posts
 yarn add multer
 
 dependência que lida com o post de multipart/form-data 
-e automatiza o upload de arquivos
+e automatiza o upload de arquivos.
+
+
 
 
 

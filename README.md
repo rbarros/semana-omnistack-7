@@ -102,10 +102,15 @@ http://localhost:3333/posts/'idpost'/like
 http://localhost:3333/posts/5d03aaf3b8454428b8748f6f/like
 
 ### Multer
-yarn add multer
+./backend/yarn add multer
 
 dependência que lida com o post de multipart/form-data 
 e automatiza o upload de arquivos.
+
+### Sharp
+./backend/yarn add sharp
+
+dependência que ajuda a trabalhar com imagens, para redimensionar.
 
 
 

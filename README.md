@@ -112,6 +112,10 @@ e automatiza o upload de arquivos.
 
 dependência que ajuda a trabalhar com imagens, para redimensionar.
 
+### cors
+./backend/yarn add cors
+
+Permite acesso de qualquer aplicação ao backend
 
 
 

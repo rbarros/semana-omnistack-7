@@ -8,7 +8,13 @@ module.exports = {
     
     //Controller de armazenar o Like
     async store(req, res){
+        // Pegar o id do post no BD
+        const post = await Post.findById(req.params.id);
+
+        post.likes += 1;
         
-        return res.json({ok: true});/* Para testar */
+        await post.save();
+        
+        return res.json(post);/* Para testar */
     }
 };

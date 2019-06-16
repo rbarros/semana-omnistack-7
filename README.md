@@ -117,6 +117,9 @@ dependência que ajuda a trabalhar com imagens, para redimensionar.
 
 Permite acesso de qualquer aplicação ao backend
 
+### Socket.io
+./backend/yarn add socket.io
 
+Permite o protocolo io além do http
 
 

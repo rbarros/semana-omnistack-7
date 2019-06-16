@@ -15,6 +15,10 @@ module.exports = {
         
         await post.save();
         
+        //Indica que um post acabou de ser cadastrado
+        //Envia para todos usuários através de socket
+        req.io.emit('like', post);
+
         return res.json(post);/* Para testar */
     }
 };

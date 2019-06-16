@@ -48,6 +48,11 @@ module.exports = {
             hashtags,
             image: fileName
         });
+
+        //Indica que um post acabou de ser cadastrado
+        //Envia para todos usuários através de socket
+        req.io.emit('post', post);
+
         return res.json(post);
     }
 };

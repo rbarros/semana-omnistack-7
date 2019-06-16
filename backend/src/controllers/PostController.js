@@ -23,6 +23,9 @@ module.exports = {
         // console.log(req.body);
         // console.log(req.file);
         
+        const [name] = image.split('.');
+        const fileName = `${name}.jpg`
+
         //Debugar e ver o que tem no req.file, via REST Insomnia
         // return res.json(req.file);
 
@@ -31,7 +34,7 @@ module.exports = {
             .resize(500)
             .jpeg({ quality: 70})
             .toFile(
-                path.resolve(req.file.destination, 'resized', image)
+                path.resolve(req.file.destination, 'resized', fileName)
             );
         
         // Apagando a imagem original, deixando apenas a redimensionada
@@ -43,7 +46,7 @@ module.exports = {
             place,
             description,
             hashtags,
-            image
+            image: fileName
         });
         return res.json(post);
     }
